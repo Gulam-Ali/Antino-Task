@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA4802C624574C67007FA001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4802C524574C67007FA001 /* AppDelegate.swift */; };
+		EA4802C824574C67007FA001 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4802C724574C67007FA001 /* SceneDelegate.swift */; };
+		EA4802CA24574C67007FA001 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4802C924574C67007FA001 /* ViewController.swift */; };
+		EA4802CD24574C67007FA001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4802CB24574C67007FA001 /* Main.storyboard */; };
+		EA4802CF24574C6D007FA001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4802CE24574C6D007FA001 /* Assets.xcassets */; };
+		EA4802D224574C6D007FA001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4802D024574C6D007FA001 /* LaunchScreen.storyboard */; };
+		EA4802DA245752D1007FA001 /* DataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4802D9245752D1007FA001 /* DataCell.swift */; };
+		EA9E105924575661003C4004 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EA9E105824575661003C4004 /* Alamofire */; };
+		EA9E105B24575679003C4004 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9E105A24575679003C4004 /* Networking.swift */; };
+		EA9E105D245756CE003C4004 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9E105C245756CE003C4004 /* Helpers.swift */; };
+		EA9E105F24575729003C4004 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9E105E24575729003C4004 /* Model.swift */; };
+		EA9E106124575CB6003C4004 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9E106024575CB6003C4004 /* Animations.swift */; };
+		EA9E106324575CD1003C4004 /* Animatore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9E106224575CD1003C4004 /* Animatore.swift */; };
+		EA9E106524575D0A003C4004 /* Extwnaions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9E106424575D0A003C4004 /* Extwnaions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA4802C224574C67007FA001 /* AntinoLabsTASK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntinoLabsTASK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4802C524574C67007FA001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA4802C724574C67007FA001 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA4802C924574C67007FA001 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA4802CC24574C67007FA001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA4802CE24574C6D007FA001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA4802D124574C6D007FA001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA4802D324574C6D007FA001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4802D9245752D1007FA001 /* DataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCell.swift; sourceTree = "<group>"; };
+		EA9E105A24575679003C4004 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		EA9E105C245756CE003C4004 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		EA9E105E24575729003C4004 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EA9E106024575CB6003C4004 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		EA9E106224575CD1003C4004 /* Animatore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animatore.swift; sourceTree = "<group>"; };
+		EA9E106424575D0A003C4004 /* Extwnaions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extwnaions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA4802BF24574C67007FA001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9E105924575661003C4004 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA4802B924574C66007FA001 = {
+			isa = PBXGroup;
+			children = (
+				EA4802C424574C67007FA001 /* AntinoLabsTASK */,
+				EA4802C324574C67007FA001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA4802C324574C67007FA001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA4802C224574C67007FA001 /* AntinoLabsTASK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA4802C424574C67007FA001 /* AntinoLabsTASK */ = {
+			isa = PBXGroup;
+			children = (
+				EA9E10682457677E003C4004 /* Model */,
+				EA9E10692457678B003C4004 /* View */,
+				EA9E106B245767A2003C4004 /* Controller */,
+				EA4802C524574C67007FA001 /* AppDelegate.swift */,
+				EA4802C724574C67007FA001 /* SceneDelegate.swift */,
+				EA9E106C245767B5003C4004 /* Networking */,
+				EA9E106D245767C3003C4004 /* Helpers */,
+				EA4802CB24574C67007FA001 /* Main.storyboard */,
+				EA4802CE24574C6D007FA001 /* Assets.xcassets */,
+				EA4802D024574C6D007FA001 /* LaunchScreen.storyboard */,
+				EA4802D324574C6D007FA001 /* Info.plist */,
+			);
+			path = AntinoLabsTASK;
+			sourceTree = "<group>";
+		};
+		EA9E10682457677E003C4004 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA9E105E24575729003C4004 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA9E10692457678B003C4004 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA4802D9245752D1007FA001 /* DataCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA9E106B245767A2003C4004 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EA4802C924574C67007FA001 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EA9E106C245767B5003C4004 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EA9E105A24575679003C4004 /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EA9E106D245767C3003C4004 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EA9E106024575CB6003C4004 /* Animations.swift */,
+				EA9E105C245756CE003C4004 /* Helpers.swift */,
+				EA9E106224575CD1003C4004 /* Animatore.swift */,
+				EA9E106424575D0A003C4004 /* Extwnaions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA4802C124574C67007FA001 /* AntinoLabsTASK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4802D624574C6D007FA001 /* Build configuration list for PBXNativeTarget "AntinoLabsTASK" */;
+			buildPhases = (
+				EA4802BE24574C67007FA001 /* Sources */,
+				EA4802BF24574C67007FA001 /* Frameworks */,
+				EA4802C024574C67007FA001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AntinoLabsTASK;
+			packageProductDependencies = (
+				EA9E105824575661003C4004 /* Alamofire */,
+			);
+			productName = AntinoLabsTASK;
+			productReference = EA4802C224574C67007FA001 /* AntinoLabsTASK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA4802BA24574C66007FA001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "gulam ali";
+				TargetAttributes = {
+					EA4802C124574C67007FA001 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EA4802BD24574C66007FA001 /* Build configuration list for PBXProject "AntinoLabsTASK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA4802B924574C66007FA001;
+			packageReferences = (
+				EA9E105724575661003C4004 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = EA4802C324574C67007FA001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA4802C124574C67007FA001 /* AntinoLabsTASK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA4802C024574C67007FA001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4802D224574C6D007FA001 /* LaunchScreen.storyboard in Resources */,
+				EA4802CF24574C6D007FA001 /* Assets.xcassets in Resources */,
+				EA4802CD24574C67007FA001 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA4802BE24574C67007FA001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9E105F24575729003C4004 /* Model.swift in Sources */,
+				EA4802CA24574C67007FA001 /* ViewController.swift in Sources */,
+				EA9E105D245756CE003C4004 /* Helpers.swift in Sources */,
+				EA9E105B24575679003C4004 /* Networking.swift in Sources */,
+				EA9E106524575D0A003C4004 /* Extwnaions.swift in Sources */,
+				EA4802C624574C67007FA001 /* AppDelegate.swift in Sources */,
+				EA4802C824574C67007FA001 /* SceneDelegate.swift in Sources */,
+				EA9E106124575CB6003C4004 /* Animations.swift in Sources */,
+				EA9E106324575CD1003C4004 /* Animatore.swift in Sources */,
+				EA4802DA245752D1007FA001 /* DataCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA4802CB24574C67007FA001 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA4802CC24574C67007FA001 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA4802D024574C6D007FA001 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA4802D124574C6D007FA001 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA4802D424574C6D007FA001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA4802D524574C6D007FA001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA4802D724574C6D007FA001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QXGK7D32N5;
+				INFOPLIST_FILE = AntinoLabsTASK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.antinogulamTask.gulamAli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EA4802D824574C6D007FA001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QXGK7D32N5;
+				INFOPLIST_FILE = AntinoLabsTASK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.antinogulamTask.gulamAli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA4802BD24574C66007FA001 /* Build configuration list for PBXProject "AntinoLabsTASK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4802D424574C6D007FA001 /* Debug */,
+				EA4802D524574C6D007FA001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA4802D624574C6D007FA001 /* Build configuration list for PBXNativeTarget "AntinoLabsTASK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4802D724574C6D007FA001 /* Debug */,
+				EA4802D824574C6D007FA001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA9E105724575661003C4004 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EA9E105824575661003C4004 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA9E105724575661003C4004 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EA4802BA24574C66007FA001 /* Project object */;
+}
